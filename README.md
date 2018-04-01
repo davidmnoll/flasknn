@@ -7,11 +7,14 @@ A Dockerized backend for TensorFlow's object detection module served with Flask.
 A frontend in React using WebRTC to capture user video posts it to the backend, and receives object labels via websockets.  
 
 To run:
---edit URL's in UI/src/App.js
+
+edit URL's in UI/src/App.js
 
 `yarn install `
---in root directory: `docker-compose up`
---in another terminal in UI dir: `yarn start`
+
+in root directory: `docker-compose up`
+
+in another terminal in UI dir: `yarn start`
 
 
 Big thank you to the walk-throughs below
