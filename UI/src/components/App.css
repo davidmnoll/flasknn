@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+    display: block;
+}
+
+.App-header {
+  background-color: #222;
+  height: 90px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

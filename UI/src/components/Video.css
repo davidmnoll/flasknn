@@ -1,0 +1,21 @@
+#object-canvas, #capture-canvas, #video-stream, #video{
+    width: 1240px;
+    height: 1080px;
+}
+#object-canvas{
+    z-index: 3;
+}
+#capture-canvas{
+    z-index: 2;
+}
+#video-stream.nostream{
+    height: 0;
+}
+#video{
+    position: relative;
+}
+#video-stream, #object-canvas, #capture-canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
