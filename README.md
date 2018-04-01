@@ -8,7 +8,7 @@ A frontend in React using WebRTC to capture user video posts it to the backend, 
 
 To run:
 
-edit URL's in UI/src/App.js
+edit URL's in UI/src/components/App.js
 
 `yarn install `
 
